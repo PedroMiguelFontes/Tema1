@@ -2,6 +2,16 @@
    background-color: rgb(48, 48, 48); 
 }
 
+.itemLabel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemGroup {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 a {
     color: blue;
 }
@@ -15,6 +25,10 @@ h1 {
 
 body {
     background-color:rgb(218, 61, 61);
+}
+
+footer {
+    background-color: rgb(48, 48, 48);
 }
 
 #background {
@@ -31,4 +45,6 @@ body {
     color: white;
 }
 
-
+#copyright{
+    color: white;
+}
