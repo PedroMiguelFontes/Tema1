@@ -8,13 +8,15 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Registro</h1>
     <form id="registro">
         <label for="username">Username:</label>
-        <input type="text" id="username"><br><br>
+        <input type="text" id="username" required><br><br>
         <label for="password">Password:</label>
-        <input type="text" id="password"><br><br>
-        <input type="submit" value="Submit" onclick="registro()">
-    </form>
+        <input type="password" id="password" required><br><br>
+        <input type="submit" value="Submit" id="submit" onclick="registro()">
+    </form><br><br>
+    <a href="mainPage.html">Voltar</a>
     <script src="scripts.js"></script>
 </body>
 </html>

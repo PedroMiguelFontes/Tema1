@@ -1,0 +1,21 @@
+body {
+    background-color:rgb(218, 61, 61);
+}
+
+form {
+    color:white;
+}
+
+h1 {
+    color: lawngreen;
+    font-family: Verdana;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
