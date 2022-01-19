@@ -1,5 +1,12 @@
 .navBar {
    background-color: rgb(48, 48, 48); 
+   position: fixed; 
+   top: 0; 
+   width: 100%;
+}
+
+.navBar>a {
+    text-decoration: none;
 }
 
 .itemLabel {
@@ -29,10 +36,16 @@ body {
 
 footer {
     background-color: rgb(48, 48, 48);
+    bottom: 0; 
+    width: 100%;
+}
+
+form {
+    text-align: center;
+    color: white;
 }
 
 #background {
-    position: relative; 
     height: 350px;
     width: 100%;
     display: flex;
