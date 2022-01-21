@@ -40,7 +40,32 @@ function addTV() {
     return total
 }
 
-
-function checkout() {
-    location.href="checkout.html"
+function addHammer() {
+    total=total+30
+    return total
 }
+
+function addLadder() {
+    total=total+60
+    return total
+}
+
+
+function addToolbox() {
+    total=total+100
+    return total
+}
+
+function addPanela() {
+    total=total+20
+    return total
+}
+function addFridge() {
+    total=total+290
+    return total
+}
+function addFogao() {
+    total=total+330
+    return total
+}
+
