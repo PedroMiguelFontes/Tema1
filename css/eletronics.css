@@ -1,0 +1,23 @@
+h1 {
+    color: lawngreen;
+    font-family: Verdana;
+    text-align: center;
+    
+}
+
+body {
+    background-color:rgb(218, 61, 61);
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
