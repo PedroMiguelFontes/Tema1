@@ -17,6 +17,9 @@ a {
 }
 
 body {
-    background-color:rgb(218, 61, 61);
+    background-image:linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)),url("//www.smartpaymentsnews.com/wp-content/uploads/sites/9/2020/07/e-commerce-smartpayments-news.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 

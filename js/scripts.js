@@ -28,7 +28,7 @@ function confirmed() {
 }
 
 
-let total=document.getElementById("total").value
+var total=document.getElementById("total").value
 
 function addComputer() {
     total=total+220
