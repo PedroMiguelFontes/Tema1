@@ -23,6 +23,11 @@ function login() {
     }
 }
 
+function confirmed() {
+    window.alert("Produto comprado com sucesso")
+}
+
+
 let total=document.getElementById("total").value
 
 function addComputer() {
