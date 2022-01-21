@@ -3,11 +3,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
 
 form {
     color:white;
-    background-color: #000000;
-    border: 2px solid #000000;
 }
 
 h1 {

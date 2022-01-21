@@ -12,6 +12,10 @@ body {
     background-position: center center;
 }
 
+li {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
     display: flex;
@@ -21,7 +25,5 @@ a {
 
 .items {
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-
+    justify-content: space-evenly;
 }

@@ -3,23 +3,23 @@ function submeter() {
 }
 
 function regista() {
-    var username=document.getElementById("username").value;
-    var password=document.getElementById("password").value;
-    localStorage.setItem("username",username.value);
-    localStorage.setItem("username",password.value);
+    var username=document.getElementById("username");
+    var password=document.getElementById("password");
+    sessionStorage.setItem("username",username.value);
+    sessionStorage.setItem("password",password.value);
     window.alert("Registrado")
 }
 
 function login() {
-    var storedUsername=localStorage.getItem("username");
-    var storedPassword=localStorage.getItem("password");
-    let lUsername=document.getElementById("lUsername").value
-    let lPassword=document.getElementById("lPassword").value
-    if ((storedUsername!=lUsername) || (storedPassword!=lPassword)) {
-        window.alert("Username e/ou password incorreto")
+    var storedUsername=sessionStorage.getItem("username");
+    var storedPassword=sessionStorage.getItem("password");
+    var lUsername=document.getElementById("lUsername").value
+    var lPassword=document.getElementById("lPassword").value
+    if ((storedUsername==lUsername) && (storedPassword==lPassword)) {
+        window.alert("Login bem sucedido")
     }
     else {
-        window.alert("Login bem sucedido")
+        window.alert("Username e/ou password incorreto")
     }
 }
 
