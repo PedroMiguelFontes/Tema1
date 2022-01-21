@@ -75,3 +75,15 @@ function addFogao() {
     return total
 }
 
+function productCheck() {
+    var user=sessionStorage.getItem("username")
+    var nProdutos=document.getElementById("nProduto")
+    sessionStorage.setItem("nProdutos",nProdutos.value)
+    sessionStorage.getItem("nprodutos")
+    document.getElementById("username").value=user
+}
+
+function confirmed() {
+    sessionStorage.getItem("nprodutos")
+    sessionStorage.setItem("nProdutos",nProdutos.value+1)
+}
