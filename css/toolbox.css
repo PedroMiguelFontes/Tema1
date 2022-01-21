@@ -24,4 +24,8 @@ footer {
     width: 100%;
 }
 
+.caixa {
+    display: flex;
+    justify-content: center;
+}
  

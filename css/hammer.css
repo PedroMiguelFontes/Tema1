@@ -23,3 +23,8 @@ footer {
     bottom: 0; 
     width: 100%;
 }
+
+.martelo {
+    display: flex;
+    justify-content: center;
+}

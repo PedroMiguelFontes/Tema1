@@ -23,3 +23,8 @@ footer {
     bottom: 0; 
     width: 100%;
 }
+
+.computadore {
+    display: flex;
+    justify-content: center;
+}

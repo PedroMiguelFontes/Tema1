@@ -19,7 +19,17 @@ a {
     color: white;
 }
 
+img {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     bottom: 0; 
     width: 100%;
+}
+
+.ladder {
+    display: flex;
+    justify-content: center;
 }
