@@ -21,3 +21,13 @@ a {
     justify-content: center;
 }
 
+form {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}

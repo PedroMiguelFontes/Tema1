@@ -8,3 +8,15 @@ h1 {
 body {
     background-color:rgb(218, 61, 61);
 }
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}

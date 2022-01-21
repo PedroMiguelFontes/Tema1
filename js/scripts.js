@@ -23,6 +23,24 @@ function login() {
     }
 }
 
+let total=document.getElementById("total").value
+
+function addComputer() {
+    total=total+220
+    return total
+}
+
 function addTablet() {
-    
+    total=total+120
+    return total
+}
+
+function addTV() {
+    total=total+400
+    return total
+}
+
+
+function checkout() {
+    location.href="checkout.html"
 }
