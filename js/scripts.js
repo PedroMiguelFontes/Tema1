@@ -1,5 +1,6 @@
 function submeter() {
-    window.alert("Obrigado pelo feedback")
+    var storedUsername=sessionStorage.getItem("username");
+    window.alert("Obrigado pelo feedback"+storedUsername)
 }
 
 function regista() {
