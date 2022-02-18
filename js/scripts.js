@@ -24,17 +24,14 @@ function login() {
     }
 }
 
+let total=document.getElementById("")
+
 function confirmed() {
     window.alert("Produto comprado com sucesso")
 }
 
-
-var total=document.getElementById("total").value
-sessionStorage.setItem("total",total.value)
-sessionStorage.getItem("total",total.value)
-
 function addComputer() {
-    sessionStorage.getItem("total",total.value)
+    
     sessionStorage.setItem("total",total.value+220)
 }
 
@@ -45,7 +42,8 @@ function addTablet() {
 
 function addTV() {
     sessionStorage.getItem("total",total.value)
-    sessionStorage.setItem("total",total.value+220)
+    sessionStorage.setItem("total",total.value+400)
+}
 
 function addHammer() {
     total=total+30
@@ -87,4 +85,4 @@ function productCheck() {
 function confirmed() {
     sessionStorage.getItem("nprodutos")
     sessionStorage.setItem("nProdutos",nProdutos.value+1)
-}
+}}

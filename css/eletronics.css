@@ -30,9 +30,56 @@ form {
     color: white;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 15px;
 }
 
 .items {
     display: flex;
     justify-content: space-evenly;
+}
+
+.tv>a {
+    position: relative;
+    right: 40px;
+}
+
+.tv>img {
+    position: relative;
+    right: 40px;
+    top: 15px;
+}
+
+.tv>button {
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+
+.computador>a{
+    position: relative;
+    left: 40px;
+}
+
+.computador>img{
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+
+.computador>button {
+    position: relative;
+    top: 25px;
+    left: 95px;
+}
+
+.tablet>button {
+    position: relative;
+    top: 25px;
+    left: 55px;
+}
+
+.tablet>img {
+    position: relative;
+    top: 15px;
 }
