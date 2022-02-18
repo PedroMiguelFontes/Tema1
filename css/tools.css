@@ -23,8 +23,73 @@ a {
     color:rgb(0, 183, 255);
 }
 
+form {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+
 .items {
     display: flex;
     justify-content: space-around;
     padding: 50px;
+}
+
+.caixa>a {
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+
+.martelo>a {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+.escada>a {
+    position: relative;
+    bottom: 30px;
+}
+
+.caixa>img {
+    position: relative;
+    right: 30px;
+    bottom: 15px;
+}
+
+.martelo>img {
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+}
+
+.escada>img {
+    position: relative;
+    bottom: 15px;
+}
+
+.caixa>button {
+    position: relative;
+    top: 5px;
+    left: 25px;
+}
+
+.martelo>button {
+    position: relative;
+    top: 5px;
+    left: 85px;
+}
+
+.escada>button {
+    position: relative;
+    top: 5px;
+    left: 55px;
+}
+
+#check {
+    position: relative;
+    bottom: 25px;
 }

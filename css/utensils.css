@@ -41,6 +41,7 @@ form {
 .panela>a {
     position: relative;
     top:15px;
+    left: 20px;
 }
 
 .frigorifico>a {
@@ -51,11 +52,13 @@ form {
 .fogão>a {
     position: relative;
     top:15px;
+    right: 20px;
 }
 
 .panela>img {
     position: relative;
     bottom: 20px;
+    left: 20px;
 }
 
 .frigorifico>img {
@@ -66,11 +69,12 @@ form {
 .fogão>img {
     position: relative;
     bottom: 20px;
+    right: 20px;
 }
 
 .panela>button {
     position: relative;
-    left: 55px;
+    left: 75px;
 }
 
 .frigorifico>button {
@@ -80,7 +84,7 @@ form {
 
 .fogão>button {
     position: relative;
-    left: 55px;
+    left: 40px;
 }   
 
 #check{
