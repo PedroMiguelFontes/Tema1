@@ -24,7 +24,12 @@ footer {
     width: 100%;
 }
 
-.computadore {
+.computador {
     display: flex;
     justify-content: center;
+    padding: 50px;
+}
+
+p {
+    word-break: break-all;
 }
