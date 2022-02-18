@@ -20,10 +20,70 @@ a {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    position: relative;
+    padding-bottom: 50px;
     color: rgb(0, 183, 255);
+}
+
+form {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
 }
 
 .items {
     display: flex;
     justify-content: space-evenly;
+}
+
+.panela>a {
+    position: relative;
+    top:15px;
+}
+
+.frigorifico>a {
+    position: relative;
+    top:15px;
+}
+
+.fogão>a {
+    position: relative;
+    top:15px;
+}
+
+.panela>img {
+    position: relative;
+    bottom: 20px;
+}
+
+.frigorifico>img {
+    position: relative;
+    bottom: 20px;
+}
+
+.fogão>img {
+    position: relative;
+    bottom: 20px;
+}
+
+.panela>button {
+    position: relative;
+    left: 55px;
+}
+
+.frigorifico>button {
+    position: relative;
+    left: 55px;
+}
+
+.fogão>button {
+    position: relative;
+    left: 55px;
+}   
+
+#check{
+    position: relative;
+    top: 30px;
 }
