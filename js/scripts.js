@@ -30,48 +30,38 @@ function confirmed() {
 }
 
 function addComputer() {
-    let total=document.getElementById("total")
-    total.value=total+220
-    return total
+    document.getElementById("total").value=total+220  
 }
 
 function addTablet() {
-    sessionStorage.getItem("total",total.value)
-    sessionStorage.setItem("total",total.value+120)
+    document.getElementById("total").value=total+120
 }
 
 function addTV() {
-    sessionStorage.getItem("total",total.value)
-    sessionStorage.setItem("total",total.value+400)
+    document.getElementById("total").value=total+400
 }
 
 function addHammer() {
-    total=total+30
-    return total
+    document.getElementById("total").value=total+30
 }
 
 function addLadder() {
-    total=total+60
-    return total
+    document.getElementById("total").value=total+60
 }
 
 
 function addToolbox() {
-    total=total+100
-    return total
+    document.getElementById("total").value=total+100
 }
 
 function addPanela() {
-    total=total+20
-    return total
+    document.getElementById("total").value=total+20
 }
 function addFridge() {
-    total=total+290
-    return total
+    document.getElementById("total").value=total+290
 }
 function addFogao() {
-    total=total+330
-    return total
+    document.getElementById("total").value=total+330
 }
 
 function productCheck() {
@@ -85,4 +75,4 @@ function productCheck() {
 function confirmed() {
     sessionStorage.getItem("nprodutos")
     sessionStorage.setItem("nProdutos",nProdutos.value+1)
-}}
+}
