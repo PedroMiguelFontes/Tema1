@@ -24,15 +24,15 @@ function login() {
     }
 }
 
-let total=document.getElementById("")
 
 function confirmed() {
     window.alert("Produto comprado com sucesso")
 }
 
 function addComputer() {
-    
-    sessionStorage.setItem("total",total.value+220)
+    let total=document.getElementById("total")
+    total.value=total+220
+    return total
 }
 
 function addTablet() {

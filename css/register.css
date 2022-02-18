@@ -6,7 +6,21 @@ body {
 }
 
 form {
-    color:white;
+    color:black;
+    position: relative;
+    left: 380px;
+    top: 80px;
+}
+
+form>input {
+    position: relative;
+    left: 75px;
+    bottom: 20px;
+}
+
+form>button {
+    position: relative;
+    left: 90px;
 }
 
 h1 {

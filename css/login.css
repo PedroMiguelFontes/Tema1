@@ -6,7 +6,16 @@ body {
 }
 
 form {
-    color:white;
+    color:black;
+    position: relative;
+    left: 380px;
+    top: 80px;
+}
+
+form>button {
+    position: relative;
+    left:90px;
+    top: 25px;
 }
 
 h1 {
@@ -21,4 +30,5 @@ a {
     display: flex;
     justify-content: center;
     color: rgb(0, 183, 255);
+    bottom: 10px;
 }
