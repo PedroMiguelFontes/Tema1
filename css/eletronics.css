@@ -21,7 +21,7 @@ li {
 a {
     text-decoration: none;
     text-align: center;
-    color: white;
+    color:rgb(0, 183, 255);
     display: flex;
     justify-content: center;
 }

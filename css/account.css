@@ -5,15 +5,32 @@ h1 {
     
 }
 
-p {
-    color: white;
+#user {
+    font-weight: bold;
+    color: black;
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+
+#prod {
+    font-weight: bold;
+    color: black;
+    position: relative;
+    left: 400px;
+    bottom: 20px;
 }
 
 a {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(0, 183, 255);
+}
+
+img {
+    position: relative;
+    left: 430px;
 }
 
 body {
@@ -23,3 +40,14 @@ body {
     background-position: center center;
 }
 
+#username {
+    position:relative;
+    left: 480px;
+    bottom: 33px;
+}
+
+#nProduto {
+    position:relative;
+    left: 570px;
+    bottom: 73px;
+}

@@ -1,34 +1,104 @@
 .navBar {
    background-color: rgb(48, 48, 48); 
-   position: fixed; 
+   position: fixed;
+   z-index: 2; 
    top: 0; 
    width: 100%;
 }
 
 .navBar>a {
+    position: relative;
+    bottom: 8px;
+    color: rgb(0, 183, 255);
     text-decoration: none;
 }
 
-.itemLabel {
-    display: flex;
-    justify-content: space-around;
+.navBar>a+a {
+    margin-left:25px;
 }
 
-.itemGroup {
+#account {
+    position: relative;
+    top: 0px;
+}
+
+.tools {
+    position: relative;
+    margin-top: 25px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
-a {
-    color: white;
+.tools>img {
+    position:relative;
+    left:10px;
+}
+
+.tools>a {
+    position:relative;
+    left: 20px;
+}
+
+.utensils {
+    position: relative;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.utensils>a {
+    position:relative;
+    left: 20px; 
+}
+
+.utensils>img {
+    position:relative;
+    left: 10px;
+}
+
+.eletronics {
+    position: relative;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.eletronics>a {
+    position:relative;
+    right: 45px;
+}
+
+.eletronics>img {
+    position: relative;
+    right: 20px;
+}
+
+a,a:hover,a:visited {
+    color: rgb(0, 183, 255);
     text-decoration: none;
 }
 
 h1 {
+    position: relative;
+    bottom: 10px;
     color: lawngreen;
     font-family: Verdana Italic;
-    text-align: center;
-    
+    text-align: center;    
+}
+
+form>label {
+    position: relative;
+    right: 150px;
+    top: 40px;
+}
+
+form>input {
+    position: relative;
+    left: 130px;
+    bottom: 45px;
 }
 
 body {
@@ -40,21 +110,24 @@ body {
 
 footer {
     background-color: rgb(48, 48, 48);
+    color: white;
     bottom: 0; 
     width: 100%;
+    display: flex;
+    justify-content:start;
+    
 }
+
+p+p {
+    margin-left:20px;
+}
+
 
 form {
     text-align: center;
     color: white;
 }
 
-
-#ferramentas,#utensilios,#eletrónicos {
-    text-decoration:none;
-    color: black;
-}
-
-#copyright{
-    color: white;
+#utensilios {
+    padding-left: 30px;
 }

@@ -30,21 +30,22 @@ function confirmed() {
 
 
 var total=document.getElementById("total").value
+sessionStorage.setItem("total",total.value)
+sessionStorage.getItem("total",total.value)
 
 function addComputer() {
-    total=total+220
-    return total
+    sessionStorage.getItem("total",total.value)
+    sessionStorage.setItem("total",total.value+220)
 }
 
 function addTablet() {
-    total=total+120
-    return total
+    sessionStorage.getItem("total",total.value)
+    sessionStorage.setItem("total",total.value+120)
 }
 
 function addTV() {
-    total=total+400
-    return total
-}
+    sessionStorage.getItem("total",total.value)
+    sessionStorage.setItem("total",total.value+220)
 
 function addHammer() {
     total=total+30
